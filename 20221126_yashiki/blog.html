@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Blog</title>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <a href="home.html" class="ttl">TECH</a>
+      <nav>
+        <ul class="header-nav">
+          <li><a href="home.html">ホーム</a></li>
+          <li><a href="business.html">事業内容</a></li>
+          <li><a href="blog.html">社員ブログ</a></li>
+          <li><a href="detail.html">会社概要</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="top-img-ttl">
+      <h1>社員ブログ</h1>
+    </div>
+    <div class="blog-container">
+    <div class="blog-wrap">
+      <div class="grid-box">
+        <img src="img-3/blog.png" alt="">
+        <p class="date">2019/07/17</p>
+        <p class="blog-ttl">会社を創業した理由</p>
+      </div>
+      <div class="grid-box">
+        <img src="img-3/blog.png" alt="">
+        <p class="date">2019/11/11</p>
+        <p class="blog-ttl">ITエンジニアを育成する最強メソッド</p>
+      </div>
+      <div class="grid-box">
+        <img src="img-3/blog.png" alt="">
+        <p class="date">2020/08/01</p>
+        <p class="blog-ttl">コーチングによるモチベーション向上理論</p>
+      </div>
+    </div>
+    <div class="blog-wrap">
+      <div class="grid-box">
+        <img src="img-3/blog.png" alt="">
+        <p class="date">2020/09/10</p>
+        <p class="blog-ttl">プログラミング言語習得論</p>
+      </div>
+      <div class="grid-box">
+        <img src="img-3/blog.png" alt="">
+        <p class="date">2020/12/01</p>
+        <p class="blog-ttl">エンジニア採用における注意点</p>
+      </div>
+      <div class="grid-box">
+        <img src="img-3/blog.png" alt="">
+        <p class="date">2021/01/01</p>
+        <p class="blog-ttl">今年の抱負</p>
+      </div>
+    </div>
+    </div>
+    <div class="access">
+      <div class="access-inner">
+        <h2>お問い合わせ</h2>
+        <p>お仕事のご依頼や採用に関してはお問い合わせにて承っております。</p>
+        <input type="button" id="access-btn" value="お問い合わせ">
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <p class="copy-right">&copy; 2020 TECH inc</p>
+      <ul>
+        <li><a href="#">ホーム</a></li>
+        <li><a href="business.html">事業内容</a></li>
+        <li><a href="blog.html">社員ブログ</a></li>
+        <li><a href="detail.html">会社概要</a></li>
+      </ul>
+    </div>
+  </footer>
+  <button class="scroll-top" id="scroll-top">↑</button>
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <h2>お問い合わせ</h2>
+      <p>
+        会社名
+        <input type="text" name="company">
+      </p>
+      <p>
+        お名前 <span>*</span>
+        <input type="text" name="name">
+      </p>
+      <p>
+        メールアドレス <span>*</span>
+        <input type="email" name="user_name">
+      </p>
+      <p>
+        お問合わせ内容 <span>*</span>
+        <textarea name="access-content"></textarea>
+      </p>
+      <a href="">お申し込み</a>
+      <div class="close-btn" id="close-btn">×</div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
