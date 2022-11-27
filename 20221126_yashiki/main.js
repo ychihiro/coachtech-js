@@ -24,3 +24,10 @@ window.addEventListener('click', (e) => {
     modal.style.display = 'none';
   }
 });
+
+const humb = document.getElementById("menu");
+humb.addEventListener('click', () => {
+  humb.classList.toggle('open');
+  const nav = document.getElementById("nav");
+  nav.classList.toggle('in');
+})
