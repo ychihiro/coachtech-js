@@ -39,6 +39,10 @@ header .inner {
   font-weight: bold;
 }
 
+.menu {
+  display: none;
+}
+
 
 /* メインページ */
 /* トップ画面(home) */
